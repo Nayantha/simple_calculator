@@ -11,4 +11,7 @@ class MainViewModel : ViewModel() {
     fun subtract(num1: Double, num2: Double){
         result.value = num1.minus(num2)
     }
+    fun multiply(num1: Double, num2: Double){
+        result.value = num1.times(num2)
+    }
 }
