@@ -14,4 +14,7 @@ class MainViewModel : ViewModel() {
     fun multiply(num1: Double, num2: Double){
         result.value = num1.times(num2)
     }
+    fun divide(num1: Double, num2: Double){
+        result.value = num1.div(num2)
+    }
 }
