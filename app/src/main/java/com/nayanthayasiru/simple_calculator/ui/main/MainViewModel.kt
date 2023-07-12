@@ -8,4 +8,7 @@ class MainViewModel : ViewModel() {
     fun add(num1: Double, num2: Double){
         result.value = num1.plus(num2)
     }
+    fun subtract(num1: Double, num2: Double){
+        result.value = num1.minus(num2)
+    }
 }
