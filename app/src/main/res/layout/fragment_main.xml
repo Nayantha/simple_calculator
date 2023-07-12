@@ -76,7 +76,8 @@
         app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.285" />
+        app:layout_constraintVertical_bias="0.285"
+        android:autofillHints="Enter a number"/>
 
     <EditText
         android:id="@+id/numberOne"
@@ -89,6 +90,7 @@
         app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.128" />
+        app:layout_constraintVertical_bias="0.128"
+        android:autofillHints="Enter a number"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
